@@ -194,7 +194,7 @@ export default function HomePage() {
           <div className="anim-sub" style={{ marginBottom: "20px" }}>
             <ProTextType
               texts={[
-                "GPT-4, Claude, Gemini â€” all in one place",
+                "GPT-4, Claude, Gemini — all in one place",
                 "Smart routing picks the best model for you",
                 "No API keys needed to get started",
               ]}
@@ -224,7 +224,7 @@ export default function HomePage() {
             }}
           >
             One interface. Every major model. Route your prompts to the right AI
-            automatically â€” or pick one yourself.
+            automatically — or pick one yourself.
           </p>
 
           {/* CTA row */}
@@ -293,7 +293,7 @@ export default function HomePage() {
               }}
             >
               Browse models
-              <span style={{ fontSize: "18px", lineHeight: 1 }}>â†’</span>
+              <span style={{ fontSize: "18px", lineHeight: 1 }}>→</span>
             </a>
           </div>
         </section>
@@ -310,9 +310,9 @@ export default function HomePage() {
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "24px" }}>
             {[
-              { title: "Auto-Routing", desc: "Instantly routes your prompt to the best available free model based on task complexity.", icon: "âš¡" },
-              { title: "Multi-Provider", desc: "Bring your own API keys for OpenAI, Anthropic, Groq, and more. All stored locally.", icon: "ðŸ”‘" },
-              { title: "Real-time Streaming", desc: "Experience ultra-fast, word-by-word streaming responses with zero buffering.", icon: "ðŸŒŠ" },
+              { title: "Auto-Routing", desc: "Instantly routes your prompt to the best available free model based on task complexity.", icon: "⚡" },
+              { title: "Multi-Provider", desc: "Bring your own API keys for OpenAI, Anthropic, Groq, and more. All stored locally.", icon: "🔑" },
+              { title: "Real-time Streaming", desc: "Experience ultra-fast, word-by-word streaming responses with zero buffering.", icon: "🌊" },
             ].map((feat, i) => (
               <div key={i} className="glass" style={{ padding: "32px", borderRadius: "20px", display: "flex", flexDirection: "column", gap: "16px", transition: "transform 0.2s ease", cursor: "default" }} onMouseEnter={(e) => (e.currentTarget.style.transform = "translateY(-4px)")} onMouseLeave={(e) => (e.currentTarget.style.transform = "translateY(0)")}>
                 <div style={{ fontSize: "32px", background: "var(--accent-dim)", width: "64px", height: "64px", display: "flex", alignItems: "center", justifyContent: "center", borderRadius: "16px" }}>
