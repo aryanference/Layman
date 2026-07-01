@@ -17,7 +17,7 @@ Layman is an intelligent AI chat router that automatically selects the best free
 
 Built by Layman Studio.
 
-![Layman Interface](./preview.png)
+![Layman Interface](./preview.jpg)
 
 ## Features
 
